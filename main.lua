@@ -53,7 +53,7 @@ local Library do
     Library = {
         Theme =  { },
 
-        MenuKeybind = tostring(Enum.KeyCode.Z), 
+        MenuKeybind = Enum.KeyCode.Z.Name
 
         Flags = { },
 
