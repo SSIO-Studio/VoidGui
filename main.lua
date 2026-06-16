@@ -3994,8 +3994,5 @@ for Index = 1, 2 do
     end})
 end
 
-Library:Notification("Notification without icon", 5, nil)
-Library:Notification("Notification with icon lol noob", 5, "94627324690861")
-
 getgenv().Library = Library
 return Library
