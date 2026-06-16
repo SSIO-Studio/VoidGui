@@ -1,5 +1,4 @@
--- https://discord.gg/synthx
--- example at bottom
+-- https://discord.gg/getvoid
 
 if getgenv().Library then
     getgenv().Library:Unload()
@@ -53,7 +52,7 @@ local Library do
     Library = {
         Theme =  { },
 
-        MenuKeybind = Enum.KeyCode.Z.Name
+        MenuKeybind = Enum.KeyCode.Z.Name,
 
         Flags = { },
 
